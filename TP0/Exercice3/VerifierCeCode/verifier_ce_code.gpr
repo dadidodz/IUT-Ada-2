@@ -1,0 +1,6 @@
+project Verifier_Ce_Code is
+
+   for Main use ("verifier_un_code.adb");
+
+end Verifier_Ce_Code;
+

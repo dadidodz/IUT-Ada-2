@@ -1,0 +1,79 @@
+V "GNAT Lib v2016"
+A -gnatA
+A -gnatc
+A -mtune=generic
+A -march=pentium4
+P NO ZX
+
+RN
+RV NO_CALENDAR
+RV NO_DELAY
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U usager%b		usager.adb		e14dda65 OO PK IL
+
+U usager%s		usager.ads		59d5269a EE OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20160516092928 3ffc8e18 ada%s
+D a-calend.ads		20160516092930 2d5f01d4 ada.calendar%s
+D a-inteio.ads		20160516092932 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20160516092926 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20160516092928 119b8fb3 ada.streams%s
+D a-textio.ads		20160516092932 386df5d4 ada.text_io%s
+D a-tiinio.ads		20160516092928 aa04e5d6 ada.text_io.integer_io%s
+D interfac.ads		20160516092928 5ab55268 interfaces%s
+D i-cstrea.ads		20160516092926 e53d8b8e interfaces.c_streams%s
+D system.ads		20160516092930 2da59038 system%s
+D s-crtl.ads		20160516092926 0ebbdb71 system.crtl%s
+D s-ficobl.ads		20160516092932 078245e4 system.file_control_block%s
+D s-parame.ads		20160516092932 7e2a0d7f system.parameters%s
+D s-wchcon.ads		20160516092930 1b7d22d2 system.wch_con%s
+D usager.ads		20191204151318 baac5b3e usager%s
+D usager.adb		20191204151506 5be1815b usager%b
+X 1 ada.ads
+16K9*Ada 19e8 15|1r6 1r23 2r6 2r31 3r6 3r24
+X 2 a-calend.ads
+36K13*Calendar 395e17 15|3w10 3r28
+44I9*Time<213I9>
+50I12*Year_Number{integer}
+58V13*Clock{44I9} 16|28s19
+66V13*Year{50I12} 16|28s14
+213I9 Time_Rep<long_long_integer>
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[7|46] 15|2w10 2r35
+X 6 a-textio.ads
+49K13*Text_IO 471e16 15|1w10 1r27
+166U14*New_Line 16|15s7 17s36 19s44 21s36
+169U14*Skip_Line 16|6s36 8s36
+242U14*Put 16|16s7 18s7 19s7 20s7
+249U14*Get_Line 16|10s7
+263U14*Put_Line 16|5s7 7s7 9s7
+X 7 a-tiinio.ads
+56U14*Get 16|6s7[3|18] 8s7[3|18]
+66U14*Put 16|17s7[3|18] 21s7[3|18]
+X 15 usager.ads
+6K9*usager 24l5 24e11 16|1b14 32l5 32t11
+7i4*LONGUEUR_NOM{integer} 10r26
+8R9*Enregistrement 13e14 16r49 18r38 20r39 22r34 16|3r38 13r39 25r34
+9i7*numero_adherent{integer} 16|8m18 17r18
+10a7*nom{string} 16|10m23 19r18
+11i7*longueur{integer} 16|10m35 19r32
+12i7*annee_naissance{integer} 16|6m18 21r18 28r35
+15i4*TAILLE_MAX{integer} 16r34
+16A9*Tab_usagers(8R9)<integer>
+18U11*lire_usager 18<25 16|3b11 11l8 11t19
+18r25 usager{8R9} 16|3b25 6m11 6r11 8m11 8r11 10m16 10r16 10m28 10r28
+20U11*ecrire_usager 20>27 16|13b11 23l8 23t21
+20r27 usager{8R9} 16|13b27 17r11 19r11 19r25 21r11
+22V10*age_usager{integer} 22>22 16|25b10 30l8 30t18
+22r22 usager{8R9} 16|25b22 28r28
+X 16 usager.adb
+26i7 age{integer} 28m7 29r14
+

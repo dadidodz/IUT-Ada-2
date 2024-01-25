@@ -1,0 +1,14 @@
+project Tris is
+
+   for Main use ("compter_tri_par_insertion.adb");
+
+   package Compiler is
+      for Default_Switches ("ada") use ("-gnata");
+   end Compiler;
+
+   package Builder is
+      for Default_Switches ("ada") use ("-s");
+   end Builder;
+
+end Tris;
+

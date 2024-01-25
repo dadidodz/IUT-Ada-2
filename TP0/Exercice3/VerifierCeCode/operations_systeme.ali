@@ -1,0 +1,21 @@
+V "GNAT Lib v2016"
+A -gnatA
+A -mtune=generic
+A -march=pentium4
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U operations_systeme%b	operations_systeme.adb	a421fa2a NE OO PK IL
+
+U operations_systeme%s	operations_systeme.ads	35c13fd6 EE NE OO PK IL
+
+D operations_systeme.ads  20191127152824 35c13fd6 operations_systeme%s
+D operations_systeme.adb  20191127153140 91e0c5fc operations_systeme%b
+D system.ads		20160516092930 2da59038 system%s
+X 1 operations_systeme.ads
+1K9*operations_systeme 4l5 4e23 2|1b14 12l5 12t23
+3V13*valeur_chiffre{integer} 3>29 2|7b13 10l8 10t22
+3e29 c{character} 2|7b29 9r30
+

@@ -1,0 +1,6 @@
+project Test_Usager is
+
+   for Main use ("test_tableau_usagers.adb");
+
+end Test_Usager;
+

@@ -1,0 +1,71 @@
+V "GNAT Lib v2016"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=pentium4
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U test_tableau_usagers%b  test_tableau_usagers.adb  2f09190a NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W tableau_usagers%s	tableau_usagers.adb	tableau_usagers.ali
+
+D ada.ads		20160516092928 3ffc8e18 ada%s
+D a-calend.ads		20160516092930 2d5f01d4 ada.calendar%s
+D a-except.ads		20160516092928 291912d5 ada.exceptions%s
+D a-inteio.ads		20160516092932 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20160516092926 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20160516092928 119b8fb3 ada.streams%s
+D a-tags.ads		20160516092932 01f5e3ef ada.tags%s
+D a-textio.ads		20160516092932 386df5d4 ada.text_io%s
+D a-tiinio.ads		20160516092928 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20160516092930 f9eb8f06 ada.unchecked_conversion%s
+D interfac.ads		20160516092928 5ab55268 interfaces%s
+D i-cstrea.ads		20160516092926 e53d8b8e interfaces.c_streams%s
+D system.ads		20160516092930 2da59038 system%s
+D s-crtl.ads		20160516092926 0ebbdb71 system.crtl%s
+D s-exctab.ads		20160516092930 54135002 system.exception_table%s
+D s-ficobl.ads		20160516092932 078245e4 system.file_control_block%s
+D s-parame.ads		20160516092932 7e2a0d7f system.parameters%s
+D s-soflin.ads		20160516092928 14e1eb6c system.soft_links%s
+D s-stache.ads		20160516092932 a37c21ec system.stack_checking%s
+D s-stalib.ads		20160516092930 09bd3940 system.standard_library%s
+D s-stoele.ads		20160516092932 2dc34a04 system.storage_elements%s
+D s-traent.ads		20160516092928 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160516092930 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20160516092930 1b7d22d2 system.wch_con%s
+D tableau_usagers.ads	20191209110734 4d85f31a tableau_usagers%s
+D test_tableau_usagers.adb  20191209110716 acaa9660 test_tableau_usagers%b
+D usager.ads		20191204152604 6dff9aec usager%s
+X 1 ada.ads
+16K9*Ada 19e8 26|2r6 2r23 3r6 3r31
+X 4 a-inteio.ads
+18K13*Integer_Text_IO[9|46] 26|3w10 3r35
+X 8 a-textio.ads
+49K13*Text_IO 471e16 26|2w10 2r27
+242U14*Put 26|14s7 22s7
+263U14*Put_Line 26|13s7 17s10 18s12 21s7 25s10 26s12
+X 9 a-tiinio.ads
+66U14*Put 26|15s7[4|18] 23s7[4|18]
+X 25 tableau_usagers.ads
+5K9*tableau_usagers 18e20 26|1w6 1r27
+7i4*TAILLE_MAX{integer} 26|15r11 16r10 23r11 24r10
+8A9*Tab_usagers(27|7R9)<integer> 26|6r14
+10X4*DEBORDEMENT 26|12r9
+12X4*TRANCHE_INVALIDE 26|20r9
+14U14*lire_usagers 26|9s4
+16U14*ecrire_usagers 26|10s4
+X 26 test_tableau_usagers.adb
+5U11*test_tableau_usagers 5b11 29l5 29t25
+6a4 usagers{25|8A9} 9m18 10r20
+7i4 n{integer} 9m27 10r29
+

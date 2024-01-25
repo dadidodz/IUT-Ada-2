@@ -1,0 +1,36 @@
+with ada.Text_IO; use ada.Text_IO;
+with usager; use usager;
+package body usager is
+
+procedure lire_usager ( usager : out Enregistrement ) is
+   begin
+      put_line("Entrez votre année de naissance :");
+      get(usager.annee_naissance); skip
+      put_line("Entrez votre numéro d'adhérent :");
+      get(usager.numero_adherent);
+      put_line("Entrez votre nom s'il vous plait monsieur ou madame ou non binaire :");
+      get(usager.nom);
+   end lire_usager;
+
+procedure ecrire_usager ( usager : in Enregistrement ) is
+   begin
+      new_line;
+      put("Le numéro d'adhérent de l'usager est ");
+      put(usager.numero_adherent); new_line;
+      put("Son nom est ");
+      put_line(usager.nom); new_line;
+      put("Son année de naissance est ");
+      put(usager.annee_naissance); new_line;
+
+   end ecrire_usager;
+
+function age_usager (usager : in Enregistrement ) return Integer is
+      annee : integer;
+      age : Integer;
+   begin
+      annee := 2019;
+      age := annee - usager.annee_naissance;
+      return age;
+end usager;
+
+end usager;

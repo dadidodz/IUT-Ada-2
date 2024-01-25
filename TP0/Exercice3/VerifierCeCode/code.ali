@@ -1,0 +1,62 @@
+V "GNAT Lib v2016"
+A -gnatA
+A -mtune=generic
+A -march=pentium4
+P ZX
+
+RN
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U code%b		code.adb		e85e9de4 NE OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W operations_systeme%s	operations_systeme.adb	operations_systeme.ali
+
+U code%s		code.ads		2585d5fd EE NE OO PK IL
+
+D ada.ads		20160516092928 3ffc8e18 ada%s
+D a-except.ads		20160516092928 291912d5 ada.exceptions%s
+D a-ioexce.ads		20160516092926 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20160516092928 119b8fb3 ada.streams%s
+D a-tags.ads		20160516092932 01f5e3ef ada.tags%s
+D a-textio.ads		20160516092932 386df5d4 ada.text_io%s
+D a-unccon.ads		20160516092930 f9eb8f06 ada.unchecked_conversion%s
+D code.ads		20191127155712 2585d5fd code%s
+D code.adb		20191202101426 c077821b code%b
+D interfac.ads		20160516092928 5ab55268 interfaces%s
+D i-cstrea.ads		20160516092926 e53d8b8e interfaces.c_streams%s
+D operations_systeme.ads  20191127152824 35c13fd6 operations_systeme%s
+D system.ads		20160516092930 2da59038 system%s
+D s-crtl.ads		20160516092926 0ebbdb71 system.crtl%s
+D s-exctab.ads		20160516092930 54135002 system.exception_table%s
+D s-ficobl.ads		20160516092932 078245e4 system.file_control_block%s
+D s-parame.ads		20160516092932 7e2a0d7f system.parameters%s
+D s-soflin.ads		20160516092928 14e1eb6c system.soft_links%s
+D s-stache.ads		20160516092932 a37c21ec system.stack_checking%s
+D s-stalib.ads		20160516092930 09bd3940 system.standard_library%s
+D s-stoele.ads		20160516092932 2dc34a04 system.storage_elements%s
+D s-traent.ads		20160516092928 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160516092930 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20160516092930 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 19e8 9|1r6 1r23
+X 6 a-textio.ads
+49K13*Text_IO 471e16 9|1w10 1r27
+206U14*Get 9|12s15 14s15 16s15 18s7
+242U14*Put 9|11s15 13s15 15s15 17s15
+X 8 code.ads
+1K9*code 10l5 10e9 9|3b14 44l5 44t9
+3i4*N{integer} 4r39
+4A9*Tab_caracteres(character)<integer> 6r44 8r44 9|9r44 31r44
+6U14*lire_code 6<25 9|9b14 19l8 19t17
+6a25 tab_chiffres{4A9} 9|9b25 12m20 12r20 14m20 14r20 16m20 16r20 18m12 18r12
+8V13*code_valide{boolean} 8>26 9|31b13 42l8 42t19
+8a26 tab_chiffres{4A9} 9|31b26 36r34 37r34 38r34 41r58
+X 9 code.adb
+32i7 chiffre_du_reste{integer} 35m15 41r23
+X 12 operations_systeme.ads
+1K9*operations_systeme 9|2w6 2r30 12|4e23
+3V13*valeur_chiffre{integer} 9|36s18 37s18 38s18 41s42
+

@@ -1,0 +1,10 @@
+project Note is
+
+   for Main use ("note.adb");
+
+   package Compiler is
+      for Default_Switches ("ada") use ("-g", "-gnata");
+   end Compiler;
+
+end Note;
+

@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file>H:\AdaM1103\TP1\test_usager.gpr</vfs_file>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>H:\AdaM1103\TP1\test_usager.gpr</vfs_project>
+      <vfs_file>H:\AdaM1103\TP1\test_tableau_usagers.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>H:\AdaM1103\TP1\usager.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>H:\AdaM1103\TP1\usager.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>H:\AdaM1103\TP1\tableau_usagers.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>H:\AdaM1103\TP1\tableau_usagers.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 43" >
+      <vfs_project>H:\AdaM1103\TP1\test_usager.gpr</vfs_project>
+      <vfs_file>H:\AdaM1103\TP1\tableau_usagers.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>H:\AdaM1103\TP1\test_usager.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 73" line=" 17" >
+      <vfs_project>H:\AdaM1103\TP1\test_usager.gpr</vfs_project>
+      <vfs_file>H:\AdaM1103\TP1\tableau_usagers.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 61" line=" 13" >
+      <vfs_project>H:\AdaM1103\TP1\test_usager.gpr</vfs_project>
+      <vfs_file>H:\AdaM1103\TP1\test_tableau_usagers.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 31" line=" 17" >
+      <vfs_project>H:\AdaM1103\TP1\test_usager.gpr</vfs_project>
+      <vfs_file>H:\AdaM1103\TP1\test_tableau_usagers.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 61" line=" 13" >
+      <vfs_project>H:\AdaM1103\TP1\test_usager.gpr</vfs_project>
+      <vfs_file>H:\AdaM1103\TP1\test_tableau_usagers.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 32" line=" 17" >
+      <vfs_project>H:\AdaM1103\TP1\test_usager.gpr</vfs_project>
+      <vfs_file>H:\AdaM1103\TP1\test_tableau_usagers.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 12" >
+      <vfs_project>H:\AdaM1103\TP1\test_usager.gpr</vfs_project>
+      <vfs_file>H:\AdaM1103\TP1\test_tableau_usagers.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 33" line=" 17" >
+      <vfs_project>H:\AdaM1103\TP1\test_usager.gpr</vfs_project>
+      <vfs_file>H:\AdaM1103\TP1\test_tableau_usagers.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 12" >
+      <vfs_project>H:\AdaM1103\TP1\test_usager.gpr</vfs_project>
+      <vfs_file>H:\AdaM1103\TP1\test_tableau_usagers.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 35" line=" 2" >
+      <vfs_project>H:\AdaM1103\TP1\test_usager.gpr</vfs_project>
+      <vfs_file>H:\AdaM1103\TP1\test_tableau_usagers.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 12" >
+      <vfs_project>H:\AdaM1103\TP1\test_usager.gpr</vfs_project>
+      <vfs_file>H:\AdaM1103\TP1\test_tableau_usagers.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 36" line=" 7" >
+      <vfs_project>H:\AdaM1103\TP1\test_usager.gpr</vfs_project>
+      <vfs_file>H:\AdaM1103\TP1\tableau_usagers.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 30" line=" 13" >
+      <vfs_project>H:\AdaM1103\TP1\test_usager.gpr</vfs_project>
+      <vfs_file>H:\AdaM1103\TP1\tableau_usagers.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 21" line=" 17" >
+      <vfs_project>H:\AdaM1103\TP1\test_usager.gpr</vfs_project>
+      <vfs_file>H:\AdaM1103\TP1\test_tableau_usagers.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 49" line=" 14" >
+      <vfs_project>H:\AdaM1103\TP1\test_usager.gpr</vfs_project>
+      <vfs_file>H:\AdaM1103\TP1\test_tableau_usagers.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 23" line=" 15" >
+      <vfs_project>H:\AdaM1103\TP1\test_usager.gpr</vfs_project>
+      <vfs_file>H:\AdaM1103\TP1\test_tableau_usagers.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 27" >
+      <vfs_project>H:\AdaM1103\TP1\test_usager.gpr</vfs_project>
+      <vfs_file>H:\AdaM1103\TP1\test_tableau_usagers.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 20" >
+      <vfs_project>H:\AdaM1103\TP1\test_usager.gpr</vfs_project>
+      <vfs_file>H:\AdaM1103\TP1\test_tableau_usagers.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 33" line=" 12" >
+      <vfs_project>H:\AdaM1103\TP1\test_usager.gpr</vfs_project>
+      <vfs_file>H:\AdaM1103\TP1\tableau_usagers.ads</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 32" line=" 33" >
+      <vfs_project>H:\AdaM1103\TP1\test_usager.gpr</vfs_project>
+      <vfs_file>H:\AdaM1103\TP1\tableau_usagers.adb</vfs_file>
+    </file_marker>
+  </Project>
+  <Project >
+    <vfs_file >H:\AdaM1103\test_usager.gpr</vfs_file>
+    <file_marker column=" 51" line=" 3">
+      <vfs_project >H:\AdaM1103\test_usager.gpr</vfs_project>
+      <vfs_file >H:\AdaM1103\test_usager.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 53" line=" 19">
+      <vfs_project >H:\AdaM1103\test_usager.gpr</vfs_project>
+      <vfs_file >H:\AdaM1103\usager.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

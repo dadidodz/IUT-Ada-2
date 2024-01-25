@@ -1,0 +1,86 @@
+V "GNAT Lib v2016"
+A -gnatA
+A -mtune=generic
+A -march=pentium4
+P ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U tableau_usagers%b	tableau_usagers.adb	4cff0d40 NE OO PK IL
+W ada.exceptions%s	a-except.adb		a-except.ali
+
+U tableau_usagers%s	tableau_usagers.ads	ee5c1586 EE OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system%s		system.ads		system.ali
+W system.exception_table%s  s-exctab.adb	s-exctab.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W usager%s		usager.adb		usager.ali
+
+D ada.ads		20160516092928 3ffc8e18 ada%s
+D a-calend.ads		20160516092930 2d5f01d4 ada.calendar%s
+D a-except.ads		20160516092928 291912d5 ada.exceptions%s
+D a-inteio.ads		20160516092932 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20160516092926 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20160516092928 119b8fb3 ada.streams%s
+D a-tags.ads		20160516092932 01f5e3ef ada.tags%s
+D a-textio.ads		20160516092932 386df5d4 ada.text_io%s
+D a-tiinio.ads		20160516092928 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20160516092930 f9eb8f06 ada.unchecked_conversion%s
+D interfac.ads		20160516092928 5ab55268 interfaces%s
+D i-cstrea.ads		20160516092926 e53d8b8e interfaces.c_streams%s
+D system.ads		20160516092930 2da59038 system%s
+D s-crtl.ads		20160516092926 0ebbdb71 system.crtl%s
+D s-exctab.ads		20160516092930 54135002 system.exception_table%s
+D s-ficobl.ads		20160516092932 078245e4 system.file_control_block%s
+D s-parame.ads		20160516092932 7e2a0d7f system.parameters%s
+D s-soflin.ads		20160516092928 14e1eb6c system.soft_links%s
+D s-stache.ads		20160516092932 a37c21ec system.stack_checking%s
+D s-stalib.ads		20160516092930 09bd3940 system.standard_library%s
+D s-stoele.ads		20160516092932 2dc34a04 system.storage_elements%s
+D s-traent.ads		20160516092928 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160516092930 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20160516092930 1b7d22d2 system.wch_con%s
+D tableau_usagers.ads	20191209110734 4d85f31a tableau_usagers%s
+D tableau_usagers.adb	20191209110744 017afe5a tableau_usagers%b
+D usager.ads		20191204152604 6dff9aec usager%s
+X 1 ada.ads
+16K9*Ada 19e8 25|1r6 1r23 2r6 2r31
+X 4 a-inteio.ads
+18K13*Integer_Text_IO[9|46] 25|2w10 2r35
+X 8 a-textio.ads
+49K13*Text_IO 471e16 25|1w10 1r27
+263U14*Put_Line 26|15s10 17s10 35s7
+X 9 a-tiinio.ads
+56U14*Get 26|18s10[4|18]
+X 25 tableau_usagers.ads
+5K9*tableau_usagers 18l5 18e20 26|1b14 42l5 42t20
+7i4*TAILLE_MAX{integer} 8r34 26|12r17 32r14
+8A9*Tab_usagers(27|7R9)<integer> 14r43 16r44 26|7r42 29r43
+10X4*DEBORDEMENT 26|13r19
+12X4*TRANCHE_INVALIDE 26|33r16
+14U14*lire_usagers 14<29 14<56 26|7b14 23l8 23t20
+14a29 usagers{8A9} 26|7b28 16m23 16r23
+14i56 n{integer} 26|7b55 21m7
+16U14*ecrire_usagers 16>31 16>57 26|29b14 40l8 40t22
+16a31 usagers{8A9} 26|29b30 37r24
+16i57 n{integer} 26|29b56 32r10 36r17
+X 26 tableau_usagers.adb
+8i7 i{integer} 12r13 16r31 19m10 19r14 21r10
+9i7 a{integer} 11r13 18m14
+30i7 i{integer} 36r13 37r32 38m10 38r14
+X 27 usager.ads
+5K9*usager 25|3w6 3r18 27|20e11
+7R9*Enregistrement 25|8r49 27|12e14
+14U11*lire_usager 26|16s10
+16U11*ecrire_usager 26|37s10
+

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project >
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>H:\AdaM1103\TP0\Exercice 1\note.gpr</vfs_project>
+      <vfs_file>H:\AdaM1103\TP0\Exercice 1\note.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 19" >
+      <vfs_project>H:\AdaM1103\TP0\Exercice 1\note.gpr</vfs_project>
+      <vfs_file>H:\AdaM1103\TP0\Exercice 1\note.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 15" >
+      <vfs_project>H:\AdaM1103\TP0\Exercice 1\note.gpr</vfs_project>
+      <vfs_file>H:\AdaM1103\TP0\Exercice 1\note.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project>H:\AdaM1103\TP0\Exercice 1\note.gpr</vfs_project>
+      <vfs_file>H:\AdaM1103\TP0\Exercice 1\note.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

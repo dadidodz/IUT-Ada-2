@@ -1,0 +1,21 @@
+[GENERATED OBJECT FILE]
+b__verifier_un_code.o
+[PROJECT FILES]
+H:\AdaM1103\TP0\Exercice3\VerifierCeCode\verifier_ce_code.gpr
+20191127154202
+[BOUND OBJECT FILES]
+H:\AdaM1103\TP0\Exercice3\VerifierCeCode\operations_systeme.o
+H:\AdaM1103\TP0\Exercice3\VerifierCeCode\code.o
+H:\AdaM1103\TP0\Exercice3\VerifierCeCode\verifier_un_code.o
+[GENERATED SOURCE FILES]
+b__verifier_un_code.ads
+b__verifier_un_code.adb
+b__verifier_un_code.ali
+[RESULTING OPTIONS]
+-LH:\AdaM1103\TP0\Exercice3\VerifierCeCode\
+-LH:\AdaM1103\TP0\Exercice3\VerifierCeCode\
+-LC:/program files (x86)/gnat/2016/lib/gcc/i686-pc-mingw32/4.9.4/adalib/
+-static
+-static-libgcc
+C:/program files (x86)/gnat/2016/lib/gcc/i686-pc-mingw32/4.9.4/adalib/libgnat.a
+-Wl,--stack=0x2000000

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file>H:\AdaM1103\TP0\Exercice3\VerifierCeCode\verifier_ce_code.gpr</vfs_file>
+    <file_marker column=" 23" line=" 20" >
+      <vfs_project>H:\AdaM1103\TP0\Exercice3\VerifierCeCode\verifier_ce_code.gpr</vfs_project>
+      <vfs_file>H:\AdaM1103\TP0\Exercice3\VerifierCeCode\verifier_un_code.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 29" line=" 3" >
+      <vfs_project>H:\AdaM1103\TP0\Exercice3\VerifierCeCode\verifier_ce_code.gpr</vfs_project>
+      <vfs_file>H:\AdaM1103\TP0\Exercice3\VerifierCeCode\operations_systeme.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 55" line=" 9" >
+      <vfs_project>H:\AdaM1103\TP0\Exercice3\VerifierCeCode\verifier_ce_code.gpr</vfs_project>
+      <vfs_file>H:\AdaM1103\TP0\Exercice3\VerifierCeCode\operations_systeme.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 55" line=" 4" >
+      <vfs_project>H:\AdaM1103\TP0\Exercice3\VerifierCeCode\verifier_ce_code.gpr</vfs_project>
+      <vfs_file>H:\AdaM1103\TP0\Exercice3\VerifierCeCode\code.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 49" line=" 2" >
+      <vfs_project>H:\AdaM1103\TP0\Exercice3\VerifierCeCode\verifier_ce_code.gpr</vfs_project>
+      <vfs_file>H:\AdaM1103\TP0\Exercice3\VerifierCeCode\code.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>H:\AdaM1103\TP1\test_usager.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>
